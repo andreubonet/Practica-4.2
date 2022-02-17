@@ -1,0 +1,27 @@
+-Priemro clonamos un repositorio ya empezado con el comando git clone + el limk del repositorio. 
+-A continuación indicamos que nos tenemos que situar en el repositorio mediante el comando cd + el nombre del repositorio.
+-Creamos una nueva rama llamada my-branch con el comando git branch my-branch.
+-Chequeamos que se haya creado bien mediante el comando git checkout my-branch.
+-Crearemos dos README.md, utilizando el comando touch Readme.md Readme2.md.
+-Ahora añadiremos dos Readme.md con el comando habitual git add Readme.md y Readme2.md.
+-Hacemos un breve commit con el comando commit -m "y aqui añadimos el commit".
+-Y para acabar el primer ejercicio lo lanzamos y pusheamos los cambios a github con el comando git push --set-upstream origin my-branch.
+-
+-Para empezar el segundo ejerecicio saldremos del repositorio de github con el comando cd .. 
+-Ahora craremos un nuevo repositorio, llamado my-repo utilizanod el comando git init my-repo .
+-Accedemos al repositorio con el comando cd my-repo.
+-Crearemos un nuevo README.md, utilizando el comando touch README.md.
+-Y añadiremos el README.md, con el comando git add README.md.
+-Ahora haremos un breve commit, mediante el comando git commit -m "y aqui añadimos el commit"
+-Para vincular el repositorio my-repo, tendremos que hacer un git remote  add origin https://github.com/nuestro nombre de usuario/el nombre del repositorio.git.
+-Para finalizar el segundo ejercicio pusheamos el repositorio, para vicnularlo utilizaremos el comando git push --set-upstream origin main.
+-
+-Y para finalizar tenemos el tercer ejercicio, creamos un nuevo repositorio en github.
+-Accederemos a el mediante comando cd + el nombre del repositorio.
+-Ahora haremos un git pull, para actualizar todas las ramas de seguimiento remoto y la rama retirada actualmente.
+-Creamos una nueva rama llamada feature-a con el comando git branch feature-a.
+-Chequeamos que se haya creado bien mediante el comando git checkout feature-a.
+-Crearemos dos README.md, utilizando el comando touch Readme.md.
+-Ahora añadiremos el Readme.md con el comando habitual git add Readme.md.
+-Ahora haremos un breve commit, mediante el comando git commit -m "y aqui añadimos el commit".
+-Y para finalizar haremos un git push para pushear los cambios en git hub.
