@@ -1,11 +1,13 @@
 -Priemro clonamos un repositorio ya empezado con el comando git clone + el limk del repositorio. 
 -A continuación indicamos que nos tenemos que situar en el repositorio mediante el comando cd + el nombre del repositorio.
+-![commit changes] (https://github.com/andreubonet/Practica-4.2/blob/a4899a9c2a7bf9d804a0ab4d4c3d4434ae6794c2/Tarea-4/Captura-1.png)
 -Creamos una nueva rama llamada my-branch con el comando git branch my-branch.
 -Chequeamos que se haya creado bien mediante el comando git checkout my-branch.
 -Crearemos dos README.md, utilizando el comando touch Readme.md Readme2.md.
 -Ahora añadiremos dos Readme.md con el comando habitual git add Readme.md y Readme2.md.
 -Hacemos un breve commit con el comando commit -m "y aqui añadimos el commit".
 -Y para acabar el primer ejercicio lo lanzamos y pusheamos los cambios a github con el comando git push --set-upstream origin my-branch.
+-![commit changes] (https://github.com/andreubonet/Practica-4.2/blob/a4899a9c2a7bf9d804a0ab4d4c3d4434ae6794c2/Tarea-4/Captura-2.png)
 -
 -Para empezar el segundo ejerecicio saldremos del repositorio de github con el comando cd .. 
 -Ahora craremos un nuevo repositorio, llamado my-repo utilizanod el comando git init my-repo .
@@ -15,6 +17,7 @@
 -Ahora haremos un breve commit, mediante el comando git commit -m "y aqui añadimos el commit"
 -Para vincular el repositorio my-repo, tendremos que hacer un git remote  add origin https://github.com/nuestro nombre de usuario/el nombre del repositorio.git.
 -Para finalizar el segundo ejercicio pusheamos el repositorio, para vicnularlo utilizaremos el comando git push --set-upstream origin main.
+-![commit changes] (https://github.com/andreubonet/Practica-4.2/blob/a4899a9c2a7bf9d804a0ab4d4c3d4434ae6794c2/Tarea-4/Captura-3.png)
 -
 -Y para finalizar tenemos el tercer ejercicio, creamos un nuevo repositorio en github.
 -Accederemos a el mediante comando cd + el nombre del repositorio.
@@ -25,3 +28,4 @@
 -Ahora añadiremos el Readme.md con el comando habitual git add Readme.md.
 -Ahora haremos un breve commit, mediante el comando git commit -m "y aqui añadimos el commit".
 -Y para finalizar haremos un git push para pushear los cambios en git hub.
+-![commit changes] (https://github.com/andreubonet/Practica-4.2/blob/a4899a9c2a7bf9d804a0ab4d4c3d4434ae6794c2/Tarea-4/Captura-4.png)
